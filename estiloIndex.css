@@ -1,0 +1,430 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "montserrat";
+}
+
+body{
+    background-color:rgb(239,246,245);
+    
+    
+}
+section{
+  
+    background-color:rgb(242,99,126);
+    height: 600px;
+    width: 1350px;
+    
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-family: "montserrat";
+    font-weight: bold;
+}
+header{
+    position: relative;
+    margin-left: 120px;
+   width: 1100px;
+   
+}
+
+header ul li{
+    position: relative;
+    list-style: none;
+    display: inline;
+    margin: 15px;
+    margin-right: 50px;
+    
+}
+header ul{
+    position: absolute;
+   right: 0px;
+    top: 20px; 
+}
+
+header ul li a{
+    color: white;
+    font-size: 15px; 
+    padding: 8px;
+}
+header ul li a:hover{
+    background-color: transparent;      
+   
+    border-bottom:  2px solid white;
+    border-radius: 0px; 
+}
+
+
+.botao{
+    width: 10px;
+    height: 100px;
+    background: white;
+    background: height 25px ;
+    border: 2px solid white;
+    border-radius: 6px; 
+    font-size: 12px;
+    color: rgb(242,99,126);
+
+}
+
+.botao:hover {     
+     background-color: rgb(255,255,255,0.5); 
+     color: white;
+     border-radius: 6px; 
+}
+.menu-curso ul{
+    position: absolute;
+    display: none;
+    background-color: white;
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    left: 1px;
+
+}
+.menu-curso ul li a{
+    color: rgb(4,191,191,0.7);
+    font-size: 12px;
+    
+    
+}
+.menu-curso:hover ul{
+    display:block;
+   
+}
+.menu-curso:hover a img{
+    transform: rotate(180deg);
+}
+
+.menu-curso ul li{
+   position: relative;
+    display: block;
+    width: 180px;
+    height: 30px;
+    padding-top: 10px;
+    margin-left: -30px;
+    margin-top: 0px;
+    
+}
+.menu-curso ul li:hover{
+    border-bottom: 1px solid rgb(4,191,191);
+}
+
+.conteiner-inicial{
+    width: 1100px;
+    display: flex;
+    margin-left: 120px;
+}
+.conteiner-inicial h2{
+    
+    font-size: 48px;
+    width: 450px;
+    color: white;
+    
+    margin-top: 140px;
+    
+}
+
+.conteiner-inicial img{
+   
+    margin-top: 50px;
+}
+
+.conteiner-sobre{
+    position: relative;
+   margin-left: 120px;
+   display: flex;
+   width: 1100px;
+   height: 500px;
+}
+.conteiner-sobre h2{
+    color: rgb(4,191,191) ;
+    font-family: "montserrat" ;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#circulo{
+    position: absolute;
+    background-color:rgb(4,191,191,0.7);
+    width: 160px;
+    height: 160px;
+    border-radius: 100px;
+    margin-top: 190px;
+    margin-left: -230px; 
+}
+.conteiner-sobre p{
+    width: 400px;
+    line-height: 22px;
+    font-family: "Montserrat";
+    font-size: 16px;
+}
+.conteiner-sobre button{
+    background: transparent;
+    color: rgb(4,191,191);
+    width: 150px;
+    height: 45px;
+    border: 2px solid;
+    border-color: rgb(4,191,191);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.conteiner-sobre button:hover{
+    background-color:rgb(4,191,191, 0.2) ;
+}
+.conteiner-sobre img{
+   width: 550px;
+   height: 380px;
+  margin-top: 40px;
+  margin-left: 110px;
+   
+   
+    
+    border-radius: 10px;
+}
+.conteiner-cursos{
+    position: relative;
+        left: 120px;
+        width: 1100px;
+}
+.curso-quadro{
+    background-color:rgb(4,191,191) ;
+    width: 1000px;
+    height: 620px;
+}
+.paineis-cursos{
+   position: absolute;
+    display: flex;
+    
+    left: 380px;
+    top: 50px;
+   
+}
+.painel{
+    width: 350px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: justify;
+    box-shadow:	10px 10px 60px black;
+}
+
+.painel img{
+    width:inherit ;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+}
+.painel h3{
+    margin: 20px 40px 20px 30px;
+
+}
+.painel p{
+    margin: 20px 40px 30px 30px;
+    color: grey;
+}
+.painel button{
+    margin-left: 30px;
+   width: 290px;
+   height:50px;
+   background-color: rgb(4,191,191);
+   color: white;
+   border-radius: 5px;
+   border: 2px solid rgb(4,191,191);
+}
+.painel button:hover{
+    background-color: rgb(242,99,126);
+    border-color: rgb(242,99,126);
+}
+.curso-quadro h2{
+    position: absolute;
+    color: white;
+    width: 20px;
+    font-size: 60px;
+    margin-top: 150px;
+    margin-left: 90px;
+}
+.curso-quadro button{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 100px;
+    background: transparent;
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: white;
+    color:white;
+    
+}
+.curso-quadro button:hover{
+    border: 2px solid;
+    border-color:rgb(4,191,191) ;
+    background-color: transparent;
+}
+
+.conteiner-comentarios{
+    width: 1100px;
+    margin-left: 120px;
+    margin-top: 70px;
+}
+.conteiner-comentarios h2{
+    color:rgb(4,191,191)  ;
+    text-align: center;
+    font-size: 48px;
+}
+.comentarios{
+    
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.comentarios div{
+    background: white;
+    width: 240px;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px 15px;
+
+    
+}
+.comentarios img{
+    
+    border-radius: 100px;
+   border: solid;
+    border-color: rgb(242,99,126);
+    
+}
+.comentarios figcaption{
+    color: rgb(242,99,126);
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.comentarios figure{
+    display: flex;
+    margin-top: 10px;
+    
+}
+.comentarios p{
+    font-size: 15px;
+    color: gray;
+}
+.conteiner-leitura{
+    
+    background-color:rgb(4,191,191) ;
+    text-align: center;
+    width: 1100px;
+    height: 500px;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+.quadro-leitura h2{
+   
+   padding-top: 60px;
+    color: white;
+    font-size: 50px; 
+}
+.quadro-leitura button{
+    margin-top: 50px;
+    background: transparent;
+
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: white;
+}
+.quadro-leitura button:hover{
+    border: 2px solid;
+    border-color:rgb(4,191,191) ;
+    background-color: transparent;
+}
+.quadro-leitura a{
+    color: white;
+
+}
+.paineis-leituras{
+    display: flex;
+    width: 1000px;
+    margin-top: 50px;
+    margin-left:25px
+}
+
+.paineis-leituras div{
+    width: 320px;
+    height: 400px;
+    background-color: white;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow:	10px 10px 60px black;
+}
+.paineis-leituras img{
+    width: inherit;
+    height: 180px;
+    border-radius: 10px 10px 0px 0px;
+}
+.paineis-leituras h3{
+    margin: 10px 20px 10px 15px;
+
+}
+.paineis-leituras p{
+    margin: 10px 20px 15px 15px;
+    color: grey;
+}
+.paineis-leituras button{
+    margin-left: 15px;
+   width: 250px;
+   height:40px;
+   background-color: transparent;
+   color:  rgb(4,191,191);;
+   border-radius: 5px;
+   border: 2px solid rgb(4,191,191);
+}
+.paineis-leituras button:hover{
+    background-color: rgb(4,191,191, 0.2);
+    
+}
+footer{
+    width: 1200px;
+    margin-left: 120px;
+    margin-top: 350px;
+}
+.conteiner-footer{
+    display: flex;
+    margin-top: 50px;
+}
+.conteiner-footer div{
+    width: 200px;
+    margin: 30px;
+    
+}
+.conteiner-footer  li{
+    list-style: none;
+    margin-top: 15px;
+   margin-left: -40px;
+   color: gray;
+   display: flex;
+    
+}
+.conteiner-footer a{
+    color: gray;
+}
+.conteiner-footer h4{
+    color:rgb(4,191,191) ;
+}
+footer p{
+    color: grey;
+}
+
+
+
