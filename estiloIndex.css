@@ -11,23 +11,15 @@ body{
     
     
 }
-section{
-  
-    background-color:rgb(242,99,126);
-    height: 600px;
-    width: 1350px;
-    
-}
+
 a{
     text-decoration: none;
 }
-h2{
-    font-family: "montserrat";
-    font-weight: bold;
-}
+
 header{
     position: relative;
     margin-left: 120px;
+    margin-top: 20px;
    width: 1100px;
    
 }
@@ -38,6 +30,7 @@ header ul li{
     display: inline;
     margin: 15px;
     margin-right: 50px;
+    
     
 }
 header ul{
@@ -59,7 +52,7 @@ header ul li a:hover{
 }
 
 
-.botao{
+.botao-header{
     width: 10px;
     height: 100px;
     background: white;
@@ -71,7 +64,7 @@ header ul li a:hover{
 
 }
 
-.botao:hover {     
+.botao-header:hover {     
      background-color: rgb(255,255,255,0.5); 
      color: white;
      border-radius: 6px; 
@@ -81,7 +74,7 @@ header ul li a:hover{
     display: none;
     background-color: white;
     width: 200px;
-    height: 150px;
+    height: 180px;
     border-radius: 5px;
     left: 1px;
 
@@ -104,16 +97,23 @@ header ul li a:hover{
    position: relative;
     display: block;
     width: 180px;
-    height: 30px;
+    height: 40px;
     padding-top: 10px;
     margin-left: -30px;
-    margin-top: 0px;
+    
     
 }
 .menu-curso ul li:hover{
     border-bottom: 1px solid rgb(4,191,191);
 }
-
+section{
+  
+    background-color:rgb(242,99,126);
+    height: 600px;
+    width: 1350px;
+    margin-top: -90px
+    
+}
 .conteiner-inicial{
     width: 1100px;
     display: flex;
@@ -125,13 +125,13 @@ header ul li a:hover{
     width: 450px;
     color: white;
     
-    margin-top: 140px;
+    margin-top: 200px;
     
 }
 
 .conteiner-inicial img{
    
-    margin-top: 50px;
+    margin-top: 140px;
 }
 
 .conteiner-sobre{
@@ -143,7 +143,6 @@ header ul li a:hover{
 }
 .conteiner-sobre h2{
     color: rgb(4,191,191) ;
-    font-family: "montserrat" ;
     font-weight: bold;
     font-size: 40px;
     margin-top: 50px;
@@ -161,7 +160,6 @@ header ul li a:hover{
 .conteiner-sobre p{
     width: 400px;
     line-height: 22px;
-    font-family: "Montserrat";
     font-size: 16px;
 }
 .conteiner-sobre button{
@@ -327,6 +325,7 @@ header ul li a:hover{
     height: 500px;
     margin-left: 120px;
     margin-top: 100px;
+    margin-bottom: 350px;
 }
 .quadro-leitura h2{
    
@@ -397,7 +396,7 @@ header ul li a:hover{
 footer{
     width: 1200px;
     margin-left: 120px;
-    margin-top: 350px;
+    
 }
 .conteiner-footer{
     display: flex;
@@ -426,5 +425,7 @@ footer p{
     color: grey;
 }
 
-
+.icone-redeSocial{
+    margin-top: 20px;
+}
 
